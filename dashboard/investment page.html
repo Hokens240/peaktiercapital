@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="dark" data-color-theme="Blue_Theme" data-layout="vertical">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="assets/images/logos/favicon.png" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/atom-one-dark.min.css" />
+
+  <title>Peaktiercap</title>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <!--<img src="assets/img/black gold logo.png" alt="loader" class="lds-ripple img-fluid" />-->
+    <p class="lds-ripple"><b>Peaktiercapital</b></p>
+  </div>
+  <div id="main-wrapper">
+    <!-- Sidebar Start -->
+    <aside class="side-mini-panel with-vertical">
+      <!-- ---------------------------------- -->
+      <!-- Start Vertical Layout Sidebar -->
+      <!-- ---------------------------------- -->
+      <div class="iconbar">
+        <div>
+          <div class="mini-nav">
+            <div class="brand-logo d-flex align-items-center justify-content-center">
+              <a class="nav-link sidebartoggler" id="headerCollapse" href="javascript:void(0)">
+                <iconify-icon icon="solar:hamburger-menu-line-duotone" class="fs-7"></iconify-icon>
+              </a>
+            </div>
+            <ul class="mini-nav-ul" data-simplebar>
+
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <!-- Dashboards -->
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <li class="mini-nav-item" id="mini-1">
+                <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip"
+                  data-bs-placement="right" data-bs-title="Dashboard">
+                  <iconify-icon icon="mage:dashboard-plus-fill" class="fs-7"></iconify-icon>
+                </a>
+              </li>
+
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <!-- New Investment -->
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <li class="mini-nav-item" id="mini-3">
+                <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip"
+                  data-bs-placement="right" data-bs-title="New Investment">
+                  <iconify-icon icon="fa6-solid:money-bill-trend-up" class="fs-7"></iconify-icon>
+                </a>
+              </li>
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <!-- Place Withdrawal  -->
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <li class="mini-nav-item" id="mini-5">
+                <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip"
+                  data-bs-placement="right" data-bs-title="Place Withdrawal">
+                  <iconify-icon icon="uil:money-withdrawal" class="fs-7"></iconify-icon>
+                </a>
+              </li>
+
+              <li>
+                <span class="sidebar-divider lg"></span>
+              </li>
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <!-- Sign Out -->
+              <!-- --------------------------------------------------------------------------------------------------------- -->
+              <li class="mini-nav-item" id="mini-7">
+                <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-custom-class="custom-tooltip"
+                  data-bs-placement="right" data-bs-title="Sign Out">
+                  <iconify-icon icon="tabler:logout" class="fs-7"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="sidebarmenu">
+            <div class="brand-logo d-flex align-items-center nav-logo">
+              <a href="index.html" class="text-nowrap logo-img">
+                <b>Peaktiercap</b>
+              </a>
+
+            </div>
+            <!-- ---------------------------------- -->
+            <!-- Dashboard -->
+            <!-- ---------------------------------- -->
+            <nav class="sidebar-nav" id="menu-right-mini-1" data-simplebar>
+              <ul class="sidebar-menu" id="sidebarnav">
+                <!-- ---------------------------------- -->
+                <!-- Home -->
+                <!-- ---------------------------------- -->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Dashboard</span>
+                </li>
+                <!-- ---------------------------------- -->
+                <!-- Dashboard -->
+                <!-- ---------------------------------- -->
+                <li class="sidebar-item">
+                  <a class="sidebar-link" href="index.html" id="get-url" aria-expanded="false">
+                    <iconify-icon icon="carbon:dashboard-reference"></iconify-icon>
+                    <span class="hide-menu">User Dashboard</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- ---------------------------------- -->
+            <!-- New Investment -->
+            <!-- ---------------------------------- -->
+            <nav class="sidebar-nav" id="menu-right-mini-3" data-simplebar>
+              <ul class="sidebar-menu" id="sidebarnav">
+                <!-- ---------------------------------- -->
+                <!-- Home -->
+                <!-- ---------------------------------- -->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">New Investment</span>
+                </li>
+                <!-- ---------------------------------- -->
+                <!-- Choose Asset -->
+                <!-- ---------------------------------- -->
+                <li class="sidebar-item">
+                  <a class="sidebar-link" href="investment page.html" id="get-url" aria-expanded="false">
+                    <iconify-icon icon="solar:add-circle-bold"></iconify-icon>
+                    <span class="hide-menu">Choose Plan</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- ---------------------------------- -->
+            <!-- Place Withdrawal -->
+            <!-- ---------------------------------- -->
+            <nav class="sidebar-nav" id="menu-right-mini-5" data-simplebar>
+              <ul class="sidebar-menu" id="sidebarnav">
+                <!-- ---------------------------------- -->
+                <!-- Home -->
+                <!-- ---------------------------------- -->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Place Withdrawal</span>
+                </li>
+                <!-- ---------------------------------- -->
+                <!-- Withdraw Now  -->
+                <!-- ---------------------------------- -->
+                <li class="sidebar-item">
+                  <a class="sidebar-link" href="withdrawal.html" id="get-url" aria-expanded="false">
+                    <iconify-icon icon="hugeicons:reverse-withdrawal-01"></iconify-icon>
+                    <span class="hide-menu">Withdraw Now</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- ---------------------------------- -->
+            <!-- Sign Out -->
+            <!-- ---------------------------------- -->
+            <nav class="sidebar-nav" id="menu-right-mini-7" data-simplebar>
+              <ul class="sidebar-menu" id="sidebarnav">
+                <!-- ---------------------------------- -->
+                <!-- Home -->
+                <!-- ---------------------------------- -->
+                <li class="nav-small-cap">
+                  <span class="hide-menu">Sign Out</span>
+                </li>
+                <!-- ---------------------------------- -->
+                <!-- Logout Now -->
+                <!-- ---------------------------------- -->
+                <li class="sidebar-item">
+                  <a class="sidebar-link" href="#" id="get-url" aria-expanded="false" onclick="logoutMock()">
+                    <iconify-icon icon="hugeicons:logout-04"></iconify-icon>
+                    <span class="hide-menu">Logout Now</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!--  Sidebar End -->
+    <div class="page-wrapper">
+      <!--  Header Start -->
+      <header class="topbar">
+        <div class="with-vertical">
+          <!-- ---------------------------------- -->
+          <!-- Start Vertical Layout Header -->
+          <!-- ---------------------------------- -->
+          <nav class="navbar navbar-expand-lg p-0">
+            <ul class="navbar-nav">
+              <li class="nav-item d-flex d-xl-none">
+                <a class="nav-link nav-icon-hover-bg rounded-circle  sidebartoggler " id="headerCollapse"
+                  href="javascript:void(0)">
+                  <iconify-icon icon="solar:hamburger-menu-line-duotone" class="fs-6"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+
+            <div class="d-block d-lg-none py-9 py-xl-0">
+              <p><b>Peaktiercap</b></p>
+            </div>
+            <a class="navbar-toggler p-0 border-0 nav-icon-hover-bg rounded-circle" href="javascript:void(0)"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <iconify-icon icon="solar:menu-dots-bold-duotone" class="fs-6"></iconify-icon>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div class="d-flex align-items-center justify-content-between">
+                <ul class="navbar-nav flex-row mx-auto ms-lg-auto align-items-center justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link moon dark-layout nav-icon-hover-bg rounded-circle" href="javascript:void(0)">
+                      <iconify-icon icon="solar:moon-line-duotone" class="moon fs-6"></iconify-icon>
+                    </a>
+                    <a class="nav-link sun light-layout nav-icon-hover-bg rounded-circle" href="javascript:void(0)"
+                      style="display: none">
+                      <iconify-icon icon="solar:sun-2-line-duotone" class="sun fs-6"></iconify-icon>
+                    </a>
+                  </li>
+
+                  
+
+
+                  <!-- ------------------------------- -->
+                  <!-- start profile Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void(0)" id="drop1" aria-expanded="false">
+                      <div class="d-flex align-items-center gap-2 lh-base">
+                        <img src="assets/img/useravatar.png" class="rounded-circle" width="35" height="35"
+                          alt="blackgold-img" />
+                        <iconify-icon icon="solar:alt-arrow-down-bold" class="fs-2"></iconify-icon>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu profile-dropdown dropdown-menu-end dropdown-menu-animate-up"
+                      aria-labelledby="drop1">
+                      <div class="position-relative px-4 pt-3 pb-2">
+                        <div class="d-flex align-items-center mb-3 pb-3 border-bottom gap-6">
+                          <img src="assets/img/people.png" class="rounded-circle" width="56" height="56"
+                            alt="blackgold-img" />
+                          <div>
+                            <h5 class="mb-0 fs-12"><span class="user-greeting-name"></span> <span class="text-success fs-11">Investor</span>
+                            </h5>
+                            <p class="mb-0 text-dark">
+                              <span id="userEmail"></span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="message-body">
+                          <a href="#" class="p-2 dropdown-item h6 rounded-1" onclick="logoutMock()">
+                            Sign Out
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- ------------------------------- -->
+                  <!-- end profile Dropdown -->
+                  <!-- ------------------------------- -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- ---------------------------------- -->
+          <!-- End Vertical Layout Header -->
+          <!-- ---------------------------------- -->
+
+        </div>
+
+
+      </header>
+      <!--  Header End -->
+
+
+      <div class="body-wrapper">
+        <div class="container-fluid">
+          <div class="card card-body py-3">
+            <div class="row align-items-center">
+              <div class="col-12">
+                <div class="d-sm-flex align-items-center justify-space-between">
+                  <h4 class="mb-4 mb-sm-0 card-title">New Investment</h4>
+                  <nav aria-label="breadcrumb" class="ms-auto">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item d-flex align-items-center">
+                        <a class="text-muted text-decoration-none d-flex" href="index.html">
+                          <iconify-icon icon="solar:home-2-line-duotone" class="fs-6"></iconify-icon>
+                        </a>
+                      </li>
+                      <li class="breadcrumb-item" aria-current="page">
+                        <span class="badge fw-medium fs-2 bg-primary-subtle text-primary">
+                          Choose Asset
+                        </span>
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+
+            <!-- ----------------------------------------- -->
+            <!-- Assets Listing -->
+            <!-- ----------------------------------------- -->
+            <div class="col-md-6 col-xxl-2">
+              <div class="text-center fade p-0 show card-hover">
+                <div class="card ">
+                  <div class="card-body p-0">
+                    <div class="p-2 d-block mt-3">
+                      <img src="assets/img/money-saving.png" width="75" class="img-fluid" />
+                      <h5 class="card-title mt-3">$5500 - $9999</h5>
+                      <span class="badge bg-primary-subtle text-primary mb-3">ROI paid on time</span>
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#real-estate"
+                        class="btn btn-primary  d-block w-100">Invest Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- $1000 - $9999 modal -->
+            <div class="modal fade" id="real-estate" tabindex="-1" aria-labelledby="vertical-center-modal"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title" id="myLargeModalLabel">
+                      Invest
+                    </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The minimum investment amount for this plan is <b><span class="ti ti-currency-dollar"></span>1000</b></p> 
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount-plan_a" class="form-control border border-primary" placeholder="" />
+                        <label>
+                          <i class="ti ti-cash-banknote me-2 fs-4 text-primary"></i>
+                          <span class="border-start border-primary ps-3">Enter Investment Amount</span>
+                        </label>
+                      </div>
+
+                      <div class="d-md-flex align-items-center">
+                        <p id="error-plan_a" class="small text-danger fw-bold d-none"></p>
+                        <div class="mt-3 mt-md-0 ms-auto">
+                          <a href="#" id="button-plan_a" class="btn btn-primary hstack" onclick="handleInvestment('plan_a')">
+                            <i class="ti ti-clock-dollar me-2 fs-4"></i>
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-2">
+              <div class="text-center fade p-0 show card-hover">
+                <div class="card ">
+                  <div class="card-body p-0">
+                    <div class="p-2 d-block mt-3">
+                      <img src="assets/img/money-saving.png" width="75" class="img-fluid" />
+                      <h5 class="card-title mt-3">$10,000 - $24,999</h5>
+                      <span class="badge bg-primary-subtle text-primary mb-3">ROI paid on time</span>
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#agriculture" class="btn btn-primary d-block w-100">Invest Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- $10000 - $24999 modal -->
+            <div class="modal fade" id="agriculture" tabindex="-1" aria-labelledby="vertical-center-modal"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title" id="myLargeModalLabel">
+                      Invest
+                    </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The minimum investment amount for this plan is <b><span class="ti ti-currency-dollar"></span>10,000</b></p>
+                    <p>
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount-plan_b" class="form-control border border-primary" placeholder="" />
+                        <label>
+                          <i class="ti ti-cash-banknote me-2 fs-4 text-primary"></i>
+                          <span class="border-start border-primary ps-3">Enter Investment Amount</span>
+                        </label>
+                      </div>
+                      <p id="error-plan_b" class="small text-danger fw-bold d-none"></p>
+
+                      <div class="d-md-flex align-items-center">
+                        <div class="mt-3 mt-md-0 ms-auto">
+                          <a href="#" id="button-plan_b" class="btn btn-primary hstack" onclick="handleInvestment('plan_b')">
+                            <i class="ti ti-clock-dollar me-2 fs-4"></i>
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-2">
+              <div class="text-center fade p-0 show card-hover">
+                <div class="card ">
+                  <div class="card-body p-0">
+                    <div class="p-2 d-block mt-3">
+                      <img src="assets/img/money-saving.png" width="75" class="img-fluid" />
+                      <h5 class="card-title mt-3">$25,000 - $49,999</h5>
+                      <span class="badge bg-primary-subtle text-primary mb-3">ROI paid on time</span>
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#dollars" class="btn btn-primary d-block w-100">Invest Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- $25,000 - $49,999 modal -->
+            <div class="modal fade" id="dollars" tabindex="-1" aria-labelledby="vertical-center-modal"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title" id="myLargeModalLabel">
+                      Invest
+                    </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The minimum investment amount for this is <b><span class="ti ti-currency-dollar"></span>25,000</b></p>
+                    <p>
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount-plan_c" class="form-control border border-primary" placeholder="" />
+                        <label>
+                          <i class="ti ti-cash-banknote me-2 fs-4 text-primary"></i>
+                          <span class="border-start border-primary ps-3">Enter Investment Amount</span>
+                        </label>
+                      </div>
+                      <p id="error-plan_c" class="small text-danger fw-bold d-none"></p>
+
+                      <div class="d-md-flex align-items-center">
+                        <div class="mt-3 mt-md-0 ms-auto">
+                          <a href="#" id="button-plan_c" class="btn btn-primary hstack" onclick="handleInvestment('plan_c')">
+                            <i class="ti ti-clock-dollar me-2 fs-4"></i>
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-2">
+              <div class="text-center fade p-0 show card-hover">
+                <div class="card ">
+                  <div class="card-body p-0">
+                    <div class="p-2 d-block mt-3">
+                      <img src="assets/img/money-saving.png" width="75" class="img-fluid" />
+                      <h5 class="card-title mt-3">$50,000 - $100,000</h5>
+                      <span class="badge bg-primary-subtle text-primary mb-3">ROI paid on time</span>
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#gold" class="btn btn-primary  d-block w-100">Invest Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- $50000 - $100000 modal -->
+            <div class="modal fade" id="gold" tabindex="-1" aria-labelledby="vertical-center-modal"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title" id="myLargeModalLabel">
+                      Invest
+                    </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The minimum investment amount for this plan is <b><span class="ti ti-currency-dollar"></span>50,000</b></p>
+                    <p>
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount-plan_d" class="form-control border border-primary" placeholder="" />
+                        <label>
+                          <i class="ti ti-cash-banknote me-2 fs-4 text-primary"></i>
+                          <span class="border-start border-primary ps-3">Enter Investment Amount</span>
+                        </label>
+                      </div>
+                      <p id="error-plan_d" class="small text-danger fw-bold d-none"></p>
+
+                      <div class="d-md-flex align-items-center">
+                        <div class="mt-3 mt-md-0 ms-auto">
+                          <a href="#" id="button-plan_d" class="btn btn-primary hstack" onclick="handleInvestment('plan_d')">
+                            <i class="ti ti-clock-dollar me-2 fs-4"></i>
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-2">
+              <div class="text-center fade p-0 show card-hover">
+                <div class="card ">
+                  <div class="card-body p-0">
+                    <div class="p-2 d-block mt-3">
+                      <img src="assets/img/money-saving.png" width="75" class="img-fluid" />
+                      <h5 class="card-title mt-3">$200,000 - $1M</h5>
+                      <span class="badge bg-primary-subtle text-primary mb-3">ROI paid on time</span>
+                      <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#premium" class="btn btn-primary  d-block w-100">Invest Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- $200,000 - $1M modal -->
+            <div class="modal fade" id="premium" tabindex="-1" aria-labelledby="vertical-center-modal"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title" id="myLargeModalLabel">
+                      Invest
+                    </h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>The minimum investment amount for this plan is <b><span class="ti ti-currency-dollar"></span>200,000</b></p>
+                    <p>
+                    <form>
+                      <div class="form-floating mb-3">
+                        <input type="number" id="amount-plan_e" class="form-control border border-primary" placeholder="" />
+                        <label>
+                          <i class="ti ti-cash-banknote me-2 fs-4 text-primary"></i>
+                          <span class="border-start border-primary ps-3">Enter Investment Amount</span>
+                        </label>
+                      </div>
+                      <p id="error-plan_e" class="small text-danger fw-bold d-none"></p>
+
+                      <div class="d-md-flex align-items-center">
+                        <div class="mt-3 mt-md-0 ms-auto">
+                          <a href="#" id="button-plan_e" class="btn btn-primary hstack" onclick="handleInvestment('plan_e')">
+                            <i class="ti ti-clock-dollar me-2 fs-4"></i>
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                    </form>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+
+
+      <script>
+        function handleColorTheme(e) {
+          document.documentElement.setAttribute("data-color-theme", e);
+        }
+      </script>
+    </div>
+
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!-- Import Js Files -->
+   <script src="../js/myapp.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/simplebar.min.js"></script>
+  <script src="assets/js/app.dark.init.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/app.min.js"></script>
+  <script src="assets/js/sidebarmenu.js"></script>
+
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+
+  <!-- highlight.js (code view) -->
+  <script src="assets/js/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+
+
+    document.querySelectorAll("pre.code-view > code").forEach((codeBlock) => {
+      codeBlock.textContent = codeBlock.innerHTML;
+    });
+  </script>
+  <script src="assets/js/index.global.min.js"></script>
+  <script src="assets/js/calendar-init.js"></script>
+  <script src="assets/js/vendor.min.js"></script>
+  <script src="assets/js/apexcharts.min.js"></script>
+  <script src="assets/js/dashboard3.js"></script>
+  <script src="assets/js/apex.bar.init.js"></script>
+  <script src="assets/js/apex.pie.init.js"></script>
+</body>
+
+</html>

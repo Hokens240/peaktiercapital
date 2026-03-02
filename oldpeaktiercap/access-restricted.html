@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Restricted</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Set a custom font and ensure full viewport height */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'security-red': '#dc2626',
+                        'security-bg': '#fef3c7', /* Light yellow for background */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Restricted Access Container Card -->
+    <div class="max-w-xl w-full bg-white shadow-2xl rounded-xl overflow-hidden border-t-8 border-security-red transition-all duration-300 hover:shadow-3xl">
+
+        <!-- Header Bar -->
+        <div class="bg-security-red p-4 sm:p-6 flex items-center space-x-3">
+            
+            <h1 class="text-2xl font-extrabold text-white tracking-tight">
+                ACCESS RESTRICTED
+            </h1>
+        </div>
+
+        <!-- Body Content -->
+        <div class="p-6 sm:p-8 space-y-6">
+            <div class="text-left">
+                <!-- Main Warning Message -->
+                <p class="text-lg text-gray-800 font-semibold leading-relaxed">
+                    This page you are requesting is temporarily <span class="text-security-red font-bold">restricted</span>.
+                </p>
+
+                <p class="mt-4 text-base text-gray-600">
+                    Further <span class="font-bold text-gray-900">Verification is needed</span> as we've noticed some irregular activities on this hosting server. This measure is in place to protect your data and the integrity of our network.
+                </p>
+
+                <!-- Detailed Steps (Hidden on tiny screens, helpful on desktop) -->
+                <ul class="list-disc list-inside mt-6 text-sm text-gray-500 space-y-2">
+                    <li>Verify to lift restriction.</li>
+                    <li>Proceed immediately to the verification process.</li>
+                    <li>Failure to verify may result in a permanent account lock.</li>
+                </ul>
+
+            </div>
+
+            
+        </div>
+    </div>
+
+</body>
+</html>
