@@ -23,11 +23,11 @@ function formatCurrency(number) {
 // --- INVESTMENT PLAN DEFINITIONS ---
 
 const INVESTMENT_PLANS = [
-    { id: 'plan_a', name: 'Starter Pack', min: 1000, max: 9999 },
-    { id: 'plan_b', name: 'Regular Pack', min: 10000, max: 24999 },
-    { id: 'plan_c', name: 'Gold Pack', min: 25000, max: 49999 },
-    { id: 'plan_d', name: 'Ruby Pack', min: 50000, max: 100000 },
-    { id: 'plan_e', name: 'Premium Pack', min: 200000, max: 1000000 }
+    { id: 'plan_a', name: 'Silver Pack', min: 25000, max: 49999 },
+    { id: 'plan_b', name: 'Gold Pack', min: 50000, max: 99999 },
+    { id: 'plan_c', name: 'Ruby Pack', min: 100000, max: 199999 },
+    { id: 'plan_d', name: 'Premium Pack', min: 200000, max: 499999 },
+    { id: 'plan_e', name: 'Diamond Pack', min: 500000, max: 1000000 }
 ];
 
 
